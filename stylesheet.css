@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background-color: rgb(34, 33, 33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 350px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: white;
+}
+.container div {
+    background-color: rgb(24, 34, 34);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 25px;
+}
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+.item2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item12 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+.item12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color {
+    
+}
+
