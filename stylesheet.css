@@ -11,20 +11,37 @@ body {
     height: 500px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
     color: white;
 }
-.container div {
+.container button {
     background-color: rgb(24, 34, 34);
     text-align: center;
     padding: 20px 0;
     font-size: 25px;
+    color: white;
 }
 .item1 {
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 3;
+    display: flex;
+    flex-direction: column;
     
+}
+.top-display {
+    height: 50%;
+    color: rgb(49, 46, 46);
+    text-align: end;
+    font-size: 25px;
+}
+.result {
+    height: 50%;
+    color: black;
+    text-align: end;
+    font-size: 25px;
+    font-weight: 600;
 }
 .item2 {
     grid-column-start: 1;
@@ -41,7 +58,11 @@ body {
     justify-content: center;
     align-items: center;
 }
-.color {
-    
+.item18 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
 }
+
 
